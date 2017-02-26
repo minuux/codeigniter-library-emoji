@@ -1,0 +1,19 @@
+{
+    "name": "minuux/codeigniter-library-emoji",
+    "type": "codeigniter-library",
+    "description": "emoji",
+    "authors": [
+        {
+            "name": "minuux",
+            "email": "minuux@gmail.com"
+        }
+    ],
+    "require": {
+        "emojione/emojione":"v2.2.6",
+        "minuux/codeigniter-install-packages": "dev-master"
+    },
+    "extra":{
+        "class_name":"Emoji",
+        "main":"Emoji.php"
+    }
+}
